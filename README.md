@@ -13,7 +13,7 @@ when launching services in ecs and dynamic host ports (HostPort set to 0), ecs a
 
 * run script in entrypoint to gather the data
 * fetch host ip from cloud-init service
-* fetch port-forwardings from ecs agent
+* fetch port-forwardings from ecs agent (THIS REQUIRES US TO SLEEP ~2 SECONDS BEFORE REQUESTING)
 * export data as envvars
 	* HOST_MACHINE_IP={<HostIp>}
 	* PORT_{<InternalPort>}_{TCP,UDP}={<ExternalPort>}
