@@ -1,4 +1,4 @@
-# get ecs host port and port example
+# get ecs host ip and port example
 
 * edit `deploy.json` and fill in the correct values
 * to build and push at the same time: `make`
